@@ -167,13 +167,7 @@ def use_rag_node(state: AgentState) -> AgentState:
 
     return state
 
-
-def compare_results_node(state: AgentState) -> AgentState:
-    """
-    TODO: replace with a real comparison agent.
-    Should read state["results"] (all prior runs' png_path/csv_path)
-    and state.get("question") and produce a comparison summary.
-    """
+def compare_results_node(state: AgentState):
     state["analysis_summary"] = (
         f"STUB: compare_results not yet implemented. "
         f"{len(state.get('results', []))} run(s) available to compare."
