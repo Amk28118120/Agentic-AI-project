@@ -88,21 +88,8 @@ What is Floquet periodicity?
 
 Explain Bloch boundary conditions.
 
-Why are PMLs used?
+Where Do I Access the Documentation and Application Libraries?
 
-What is the irreducible Brillouin zone?
-
-What are TE and TM modes?
-
-How are photonic bandgaps formed?
-
-What is the Γ-K-M-Γ path?
-
-How does the Eigenfrequency solver work?
-
-What is the Plane Wave Expansion method?
-
-Why do flat bands occur?
 ```
 
 ---
