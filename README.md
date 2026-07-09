@@ -324,11 +324,15 @@ and generates a textual report.
 
 ### Comparison Agent
 
-Currently implemented as a placeholder.
+Compares previously generated simulation results stored during the current session.
 
-Future versions will compare multiple simulation results automatically.
+The agent can analyze multiple simulation runs and generate a natural-language comparison based on the user's query. Previous runs are automatically retained, allowing questions such as:
 
----
+- Compare the first and latest simulations.
+- Which radius factor produced the largest bandgap?
+- Compare the band structures for rf = 1.00 and rf = 1.05.
+
+The comparison currently operates on the simulation history maintained by the application and is designed to be extended with richer visualization and quantitative analysis in future versions.
 
 # Notes
 
